@@ -18,3 +18,12 @@ h3 {
 .content-container {
   @apply max-w-7xl mx-auto p-5;
 }
+
+.navlink {
+  @apply hover:underline hover:underline-offset-4;
+}
+
+/* Disabling pointer cursor until we create the pages for the links */
+.nav-button {
+  @apply cursor-default px-5 py-1 bg-brand-1 rounded-full hover:bg-white hover:text-brand-1;
+}

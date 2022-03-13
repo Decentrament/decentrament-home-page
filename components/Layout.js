@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Navbar from "./Navbar"
 
 const Layout = ({ title, keywords, description, children }) => {
   return (
@@ -8,6 +9,8 @@ const Layout = ({ title, keywords, description, children }) => {
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
       </Head>
+
+      <Navbar />
 
       {children}
     </div>
