@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 
 const Layout = ({ title, keywords, description, children }) => {
   return (
-    <div className="bg-darkblue min-h-screen text-white font-main">
+    <div className="min-h-screen text-darkblue font-main">
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />

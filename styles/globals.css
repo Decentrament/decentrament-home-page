@@ -19,15 +19,22 @@ h3 {
   @apply max-w-7xl mx-auto p-5;
 }
 
-.navlink {
-  @apply hover:underline hover:underline-offset-4;
-}
-
-/* Disabling pointer cursor until we create the pages for the links */
-.nav-button {
-  @apply cursor-default px-5 py-1 bg-brand-1 rounded-full hover:bg-white hover:text-brand-1;
-}
-
 .transition-effect {
   @apply transition-all ease-in-out duration-300;
+}
+
+.navlink {
+  @apply hover:underline hover:underline-offset-4 transition-effect;
+}
+
+.nav-button {
+  @apply text-white px-5 py-1 bg-brand-1 rounded-full hover:bg-brand-1/80 transition-effect;
+}
+
+button {
+  @apply text-white px-3 py-2 bg-brand-2 rounded-md hover:bg-brand-2/80 w-full max-w-[160px] transition-effect;
+}
+
+.button-secondary {
+  @apply bg-white border border-darkblue text-darkblue hover:bg-gray-200;
 }
