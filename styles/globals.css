@@ -27,3 +27,7 @@ h3 {
 .nav-button {
   @apply cursor-default px-5 py-1 bg-brand-1 rounded-full hover:bg-white hover:text-brand-1;
 }
+
+.transition-effect {
+  @apply transition-all ease-in-out duration-300;
+}
