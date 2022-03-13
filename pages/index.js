@@ -1,7 +1,11 @@
+import Layout from "../components/Layout"
+
 export default function Home() {
   return (
-    <div>
-      <h1>Decrament Website</h1>
-    </div>
+    <Layout>
+      <div className="content-container">
+        <h1>Decentrament Website</h1>
+      </div>
+    </Layout>
   )
 }
