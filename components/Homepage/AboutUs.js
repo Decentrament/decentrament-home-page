@@ -11,8 +11,8 @@ const AboutUs = () => {
             early web3 projects and help them to build successful solutions.
           </p>
           <p className="text-lg">
-            What is decentralization when we are just making VCs richer? Let's
-            give users the control back.
+            What is decentralization when we are just making VCs richer?
+            Let&apos;s give users the control back.
           </p>
         </div>
         <div className="flex justify-center items-center bg-gray-500 rounded">
