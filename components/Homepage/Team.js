@@ -8,6 +8,7 @@ const Team = () => {
         <div className="p-5">
           <Image
             src="/images/Ahmad.jpeg"
+            alt="Image of Ahmad"
             width={200}
             height={200}
             className="rounded-lg"
@@ -17,6 +18,7 @@ const Team = () => {
         <div className="p-5">
           <Image
             src="/images/Michael.jpeg"
+            alt="Image of Michael"
             width={200}
             height={200}
             className="rounded-lg"
@@ -26,6 +28,7 @@ const Team = () => {
         <div className="p-5">
           <Image
             src="/images/Tommy.jpeg"
+            alt="Image of Tommy"
             width={200}
             height={200}
             className="rounded-lg"
@@ -35,6 +38,7 @@ const Team = () => {
         <div className="p-5">
           <Image
             src="/images/Paolo.jpeg"
+            alt="Image of Ahmad"
             width={200}
             height={200}
             className="rounded-lg"
