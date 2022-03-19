@@ -1,8 +1,8 @@
 const HeroSection = () => {
   return (
-    <div className="grid grid-cols-2 gap-12 min-h-[500px]">
+    <section className="grid grid-cols-2 gap-12 min-h-[500px]">
       <div className="flex flex-col justify-center">
-        <h1 className="text-6xl text-brand-1 mb-6">Decentrament</h1>
+        <h1 className="text-brand-3 mb-6">Decentrament</h1>
         <p className="max-w-md text-lg mb-10">
           Introducing Decentrament, a game changer. The first fully
           Decentralized Autonomous Venture Capital, owned by the community, to
@@ -16,7 +16,7 @@ const HeroSection = () => {
       <div className="flex justify-center items-center bg-gray-500 rounded">
         Placeholder for some illustration
       </div>
-    </div>
+    </section>
   )
 }
 

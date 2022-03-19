@@ -4,11 +4,11 @@
 @tailwind utilities;
 
 h1 {
-  @apply text-5xl font-semibold;
+  @apply text-6xl font-semibold;
 }
 
 h2 {
-  @apply text-2xl font-semibold;
+  @apply text-5xl font-semibold;
 }
 
 h3 {
@@ -28,13 +28,13 @@ h3 {
 }
 
 .nav-button {
-  @apply text-white px-5 py-1 bg-brand-1 rounded-full hover:bg-brand-1/80 transition-effect;
+  @apply text-white px-5 py-1 bg-brand-1 rounded-full hover:bg-brand-1/70 transition-effect;
 }
 
 button {
-  @apply text-white px-3 py-2 bg-brand-2 rounded-md hover:bg-brand-2/80 w-full max-w-[160px] transition-effect;
+  @apply text-white px-3 py-2 bg-brand-1 rounded-md hover:bg-brand-1/70 w-full max-w-[160px] transition-effect;
 }
 
 .button-secondary {
-  @apply bg-white border border-darkblue text-darkblue hover:bg-gray-200;
+  @apply bg-white border border-darkblue text-darkblue hover:bg-white hover:text-brand-1;
 }
