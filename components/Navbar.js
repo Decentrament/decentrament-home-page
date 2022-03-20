@@ -1,10 +1,18 @@
+import Image from "next/image"
 import Link from "next/link"
 
 const Navbar = () => {
   return (
     <div className="content-container flex justify-between">
       <Link href="/">
-        <a className="text-brand-1 text-2xl font-bold">D</a>
+        <a className="text-brand-1 text-2xl font-bold">
+          <Image
+            src="/images/logo.png"
+            alt="Decentrament logo"
+            width={50}
+            height={50}
+          />
+        </a>
       </Link>
 
       <div className="flex items-center">

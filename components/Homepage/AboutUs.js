@@ -2,6 +2,9 @@ const AboutUs = () => {
   return (
     <section className="my-24 flex flex-col justify-center">
       <div className="grid grid-cols-2 gap-12 mb-14 py-5 min-h-[360px]">
+        <div className="flex justify-center items-center bg-gray-500 rounded">
+          Placeholder for some illustration
+        </div>
         <div>
           <h2 className="text-brand-3 mb-3">Our Mission</h2>
           <p className="text-lg mb-6">
@@ -15,15 +18,9 @@ const AboutUs = () => {
             Let&apos;s give users the control back.
           </p>
         </div>
-        <div className="flex justify-center items-center bg-gray-500 rounded">
-          Placeholder for some illustration
-        </div>
       </div>
 
       <div className="grid grid-cols-2 gap-12 py-5 min-h-[360px]">
-        <div className="flex justify-center items-center bg-gray-500 rounded">
-          Placeholder for some illustration
-        </div>
         <div>
           <h2 className="text-brand-3 mb-3">Our Investment Focus</h2>
           <p className="text-lg">
@@ -32,6 +29,9 @@ const AboutUs = () => {
             idea that solves a real problem in the web3 space. You just need to
             BUIDL.
           </p>
+        </div>
+        <div className="flex justify-center items-center bg-gray-500 rounded">
+          Placeholder for some illustration
         </div>
       </div>
     </section>
