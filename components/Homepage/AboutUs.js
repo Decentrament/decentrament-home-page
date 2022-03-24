@@ -6,7 +6,7 @@ const AboutUs = () => {
       <div className="grid grid-cols-2 gap-12 mb-14 py-5">
         <div className="flex justify-center items-center">
           <Image
-            src="/images/Illustration-2.png"
+            src="/images/Illustration-3.png"
             alt="Hero illustration"
             width={1200}
             height={900}
@@ -39,7 +39,7 @@ const AboutUs = () => {
         </div>
         <div className="flex justify-center items-center">
           <Image
-            src="/images/Illustration-3.png"
+            src="/images/Illustration-2.png"
             alt="Hero illustration"
             width={1200}
             height={900}
