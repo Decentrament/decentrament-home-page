@@ -17,7 +17,7 @@ const Team = () => {
           <SocialIcons
             twitter="https://twitter.com/Mardeni01"
             linkedin="https://www.linkedin.com/in/ahmad-mardeni-369b3019b"
-            discord="https://discordapp.com/users/AhmadMardeni#3657"
+            discord="https://discordapp.com/users/694271038007017592"
             telegram="https://telegram.me/AhmadMardeni"
           />
           <p className="mt-2 text-lg text-brand-3 font-semibold">Ahmad</p>
@@ -32,6 +32,7 @@ const Team = () => {
           />
           <SocialIcons
             twitter="https://twitter.com/SnowspeederGRT"
+            discord="https://discordapp.com/users/790373966903640074"
             telegram="https://telegram.me/SnowspeederGRT"
           />
           <p className="mt-2 text-lg text-brand-3 font-semibold">Michael</p>
@@ -44,7 +45,10 @@ const Team = () => {
             height={300}
             className="rounded-lg"
           />
-          <SocialIcons twitter="https://twitter.com/0xTomster" />
+          <SocialIcons
+            twitter="https://twitter.com/0xTomster"
+            discord="https://discordapp.com/users/617471202058829875"
+          />
           <p className="mt-2 text-lg text-brand-3 font-semibold">Tommy</p>
         </div>
         <div className="p-5">
@@ -59,7 +63,7 @@ const Team = () => {
             <SocialIcons
               twitter="https://twitter.com/pdiomede"
               linkedin="https://www.linkedin.com/in/pdiomede"
-              discord="https://discordapp.com/users/pdiomede#1695"
+              discord="https://discordapp.com/users/841311304714813484"
               telegram="https://telegram.me/hornelson"
             />
           </div>
