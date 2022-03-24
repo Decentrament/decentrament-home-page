@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="content-container flex justify-between">
       <Link href="/">
-        <a className="text-brand-1 text-2xl font-bold">
+        <a>
           <Image
             src="/images/logo.png"
             alt="Decentrament logo"

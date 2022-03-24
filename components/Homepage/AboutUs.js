@@ -1,11 +1,18 @@
+import Image from "next/image"
+
 const AboutUs = () => {
   return (
     <section className="my-24 flex flex-col justify-center">
-      <div className="grid grid-cols-2 gap-12 mb-14 py-5 min-h-[360px]">
-        <div className="flex justify-center items-center bg-gray-500 rounded">
-          Placeholder for some illustration
+      <div className="grid grid-cols-2 gap-12 mb-14 py-5">
+        <div className="flex justify-center items-center">
+          <Image
+            src="/images/Illustration-2.png"
+            alt="Hero illustration"
+            width={1200}
+            height={900}
+          />
         </div>
-        <div>
+        <div className="flex flex-col justify-center">
           <h2 className="text-brand-3 mb-3">Our Mission</h2>
           <p className="text-lg mb-6">
             Decentrament is an initiative to solve the biggest problem web3 is
@@ -20,8 +27,8 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-12 py-5 min-h-[360px]">
-        <div>
+      <div className="grid grid-cols-2 gap-12 py-5">
+        <div className="flex flex-col justify-center">
           <h2 className="text-brand-3 mb-3">Our Investment Focus</h2>
           <p className="text-lg">
             We only invest in web3 ideas. Some examples are but not limited to:
@@ -30,8 +37,13 @@ const AboutUs = () => {
             BUIDL.
           </p>
         </div>
-        <div className="flex justify-center items-center bg-gray-500 rounded">
-          Placeholder for some illustration
+        <div className="flex justify-center items-center">
+          <Image
+            src="/images/Illustration-3.png"
+            alt="Hero illustration"
+            width={1200}
+            height={900}
+          />
         </div>
       </div>
     </section>
