@@ -12,7 +12,7 @@ const Layout = ({ title, keywords, description, children }) => {
 
       <Navbar />
 
-      {children}
+      <main className="content-container">{children}</main>
     </div>
   )
 }

@@ -15,6 +15,9 @@ module.exports = {
         "brand-3": "#00a6ff",
         "brand-4": "#527ace",
       },
+      screens: {
+        sm: "460px",
+      },
     },
   },
   plugins: [],

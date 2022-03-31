@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="content-container flex justify-between">
       <Link href="/">
-        <a>
+        <a className="flex items-center w-10 sm:w-12">
           <Image
             src="/images/logo.png"
             alt="Decentrament logo"
@@ -15,15 +15,15 @@ const Navbar = () => {
         </a>
       </Link>
 
-      <div className="flex items-center">
+      <div className="flex items-center gap-8">
         <Link href="/">
           <a className="navlink">Home</a>
         </Link>
         <Link href="/">
-          <a className="navlink ml-10">Docs</a>
+          <a className="navlink">Docs</a>
         </Link>
         <Link href="/">
-          <a className="nav-button ml-10">App</a>
+          <a className="nav-button">App</a>
         </Link>
       </div>
     </div>

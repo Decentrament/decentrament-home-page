@@ -3,9 +3,9 @@ import SocialIcons from "./SocialIcons"
 
 const Team = () => {
   return (
-    <section className="my-20 py-5 text-center">
-      <h2 className="text-brand-3 mb-8">Decentrament Team</h2>
-      <div className="flex gap-6 justify-center">
+    <section className="my-28 py-5 text-center">
+      <h2 className="text-brand-3 mb-12">Decentrament Team</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         <div className="p-5">
           <Image
             src="/images/Ahmad.jpeg"
