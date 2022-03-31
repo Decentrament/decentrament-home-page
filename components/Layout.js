@@ -3,15 +3,23 @@ import Navbar from "./Navbar"
 
 const Layout = ({ title, keywords, description, children }) => {
   return (
-    <div className="min-h-screen bg-darkblue text-white font-main">
+    <div className="min-h-screen bg-darkblue text-white font-main overflow-x-hidden">
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
       </Head>
 
-      <Navbar />
+      <video
+        loop
+        autoPlay
+        muted
+        className="h-screen w-screen object-cover fixed -z-10"
+      >
+        <source src="/videos/bg-video.mp4" type="video/mp4" />
+      </video>
 
+      <Navbar />
       <main className="content-container">{children}</main>
     </div>
   )

@@ -9,7 +9,7 @@ module.exports = {
         main: ["Poppins", "sans-serif"],
       },
       colors: {
-        darkblue: "#283246",
+        darkblue: "rgb(40, 50, 70, 0.85)",
         "brand-1": "#9d46eb",
         "brand-2": "#7560da",
         "brand-3": "#00a6ff",
