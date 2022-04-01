@@ -19,10 +19,6 @@ h3 {
   @apply text-xl font-semibold;
 }
 
-/* a > span {
-  display: block;
-} */
-
 p {
   @apply text-base md:text-lg;
 }
