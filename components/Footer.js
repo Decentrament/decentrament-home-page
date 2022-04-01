@@ -33,7 +33,7 @@ export default function Footer() {
             <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
               <button
                 type="submit"
-                className="max-w-full md:max-w-[160px] bg-brand-1"
+                className="max-w-full md:max-w-[160px] bg-brand-1 hover:bg-brand-1/70"
               >
                 Subscribe
               </button>
