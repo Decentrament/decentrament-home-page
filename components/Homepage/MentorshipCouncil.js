@@ -31,14 +31,14 @@ const COUNCIL = [
   },
 ]
 
-const MembershipCouncil = () => {
+const MentorshipCouncil = () => {
   return (
     <section className="my-20 py-5">
       <div className="border-2 rounded-2xl">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-3 lg:gap-10 py-6 sm:py-8 md:py-14 px-6">
           <div className="flex items-center">
             <h2 className="text-center w-full md:mb-4 lg:mb-0 text-brand-3 leading-[1.3] md:leading-[1.1] tracking-wide">
-              Meet our leadership council
+              Meet our mentorship council
             </h2>
           </div>
 
@@ -70,4 +70,4 @@ const MembershipCouncil = () => {
   )
 }
 
-export default MembershipCouncil
+export default MentorshipCouncil
