@@ -1,4 +1,3 @@
-import Image from "next/image"
 import SocialIcons from "./SocialIcons"
 
 const Team = () => {
@@ -7,11 +6,9 @@ const Team = () => {
       <h2 className="text-brand-3 mb-12">Decentrament Team</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         <div className="p-5">
-          <Image
+          <img
             src="/images/Ahmad.jpeg"
             alt="Image of Ahmad"
-            width={300}
-            height={300}
             className="rounded-lg"
           />
           <SocialIcons
@@ -23,11 +20,9 @@ const Team = () => {
           <p className="mt-2 text-lg text-brand-3 font-semibold">Ahmad</p>
         </div>
         <div className="p-5">
-          <Image
+          <img
             src="/images/Michael.jpeg"
             alt="Image of Michael"
-            width={300}
-            height={300}
             className="rounded-lg"
           />
           <SocialIcons
@@ -38,11 +33,9 @@ const Team = () => {
           <p className="mt-2 text-lg text-brand-3 font-semibold">Michael</p>
         </div>
         <div className="p-5">
-          <Image
+          <img
             src="/images/Tommy.jpeg"
             alt="Image of Tommy"
-            width={300}
-            height={300}
             className="rounded-lg"
           />
           <SocialIcons
@@ -53,11 +46,9 @@ const Team = () => {
         </div>
         <div className="p-5">
           <div className="relative">
-            <Image
+            <img
               src="/images/Paolo.jpeg"
               alt="Image of Ahmad"
-              width={300}
-              height={300}
               className="rounded-lg"
             />
             <SocialIcons

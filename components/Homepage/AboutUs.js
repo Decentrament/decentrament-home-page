@@ -1,16 +1,9 @@
-import Image from "next/image"
-
 const AboutUs = () => {
   return (
     <section className="my-24 flex flex-col justify-center text-center md:text-left">
       <div className="flex flex-col md:grid md:grid-cols-2 gap-8 md:gap-12 mb-4 md:mb-14 py-2">
         <div className="flex justify-center items-center">
-          <Image
-            src="/images/Illustration-3.png"
-            alt="Hero illustration"
-            width={1200}
-            height={900}
-          />
+          <img src="/images/Illustration-3.png" alt="Hero illustration" />
         </div>
         <div className="flex flex-col justify-center">
           <h2 className="text-brand-3 mb-4">Our Mission</h2>
@@ -38,12 +31,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="flex justify-center items-center">
-          <Image
-            src="/images/Illustration-2.png"
-            alt="Hero illustration"
-            width={1200}
-            height={900}
-          />
+          <img src="/images/Illustration-2.png" alt="Hero illustration" />
         </div>
       </div>
     </section>

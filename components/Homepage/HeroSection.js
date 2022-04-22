@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 const HeroSection = () => {
   return (
     <section className="flex flex-col-reverse text-center md:text-left md:grid md:grid-cols-2 gap-12 min-h-[500px]">
@@ -18,12 +16,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <Image
-          src="/images/Illustration-1.png"
-          alt="Hero illustration"
-          width={1200}
-          height={900}
-        />
+        <img src="/images/Illustration-1.png" alt="Hero illustration" />
       </div>
     </section>
   )

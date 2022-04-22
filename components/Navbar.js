@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 
 const Navbar = () => {
@@ -6,12 +5,7 @@ const Navbar = () => {
     <nav className="content-container flex justify-between">
       <Link href="/">
         <a className="flex items-center w-10 sm:w-12">
-          <Image
-            src="/images/logo.png"
-            alt="Decentrament logo"
-            width={50}
-            height={50}
-          />
+          <img src="/images/logo.png" alt="Decentrament logo" />
         </a>
       </Link>
 
