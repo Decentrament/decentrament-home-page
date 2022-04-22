@@ -26,9 +26,9 @@ const Team = () => {
             className="rounded-lg"
           />
           <SocialIcons
-            twitter="https://twitter.com/SnowspeederGRT"
+            twitter="https://twitter.com/MrMichBTC"
             discord="https://discordapp.com/users/790373966903640074"
-            telegram="https://telegram.me/SnowspeederGRT"
+            telegram="https://telegram.me/MrMichBTC"
           />
           <p className="mt-2 text-lg text-brand-3 font-semibold">Michael</p>
         </div>
